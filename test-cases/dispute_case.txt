@@ -1,0 +1,96 @@
+{
+  "dispute_id": "DSP-2026-03847",
+  "filed_date": "2026-03-07",
+  "member": {
+    "member_id": "MBR-889214",
+    "name": "Jordan Rivera",
+    "account_opened": "2023-06-15",
+    "account_age_months": 33,
+    "tier": "Standard",
+    "overdraft_limit": 100,
+    "direct_deposit": true,
+    "avg_monthly_dd_amount": 4200,
+    "total_prior_disputes": 1,
+    "prior_dispute_outcomes": ["resolved_in_favor"],
+    "account_standing": "good",
+    "monthly_avg_spend": 3100,
+    "primary_spend_categories": ["groceries", "dining", "subscriptions", "transportation"]
+  },
+  "disputed_transaction": {
+    "transaction_id": "TXN-20260304-9182",
+    "date": "2026-03-04",
+    "post_date": "2026-03-05",
+    "amount": 284.99,
+    "merchant_name": "TechGear Pro Online",
+    "merchant_id": "MRC-44821",
+    "merchant_category_code": "5732",
+    "merchant_category": "Electronics Stores",
+    "payment_method": "debit_card",
+    "card_present": false,
+    "billing_descriptor": "TECHGEARPRO.COM 800-555-0199"
+  },
+  "dispute_details": {
+    "reason_code": "unauthorized_transaction",
+    "member_statement": "I did not make this purchase. I have never heard of TechGear Pro Online and did not order anything from them. I noticed this charge when I checked my account on March 6th. My card was in my possession the entire time.",
+    "card_reported_lost_stolen": false,
+    "new_card_issued": true,
+    "new_card_issued_date": "2026-03-07"
+  },
+  "merchant_data": {
+    "merchant_name": "TechGear Pro Online",
+    "merchant_id": "MRC-44821",
+    "registered_country": "US",
+    "registered_state": "FL",
+    "business_type": "e-commerce",
+    "years_in_operation": 2,
+    "network_stats": {
+      "total_transactions_last_90d": 3847,
+      "total_disputes_last_90d": 189,
+      "dispute_rate_pct": 4.91,
+      "avg_dispute_amount": 197.50,
+      "chargeback_win_rate_pct": 23,
+      "common_dispute_reasons": ["unauthorized_transaction", "product_not_received"],
+      "risk_flag": "HIGH"
+    },
+    "industry_benchmark": {
+      "avg_dispute_rate_pct": 0.65,
+      "merchant_percentile": 99
+    }
+  },
+  "member_transaction_history": {
+    "last_30_days": [
+      {"date": "2026-03-06", "merchant": "Whole Foods Market", "amount": 67.23, "category": "groceries"},
+      {"date": "2026-03-05", "merchant": "Uber", "amount": 24.50, "category": "transportation"},
+      {"date": "2026-03-04", "merchant": "TechGear Pro Online", "amount": 284.99, "category": "electronics", "disputed": true},
+      {"date": "2026-03-03", "merchant": "Netflix", "amount": 15.99, "category": "subscriptions"},
+      {"date": "2026-03-02", "merchant": "Sweetgreen", "amount": 16.75, "category": "dining"},
+      {"date": "2026-03-01", "merchant": "Con Edison", "amount": 142.00, "category": "utilities"},
+      {"date": "2026-02-28", "merchant": "Amazon", "amount": 34.99, "category": "shopping"},
+      {"date": "2026-02-27", "merchant": "Trader Joes", "amount": 52.18, "category": "groceries"},
+      {"date": "2026-02-25", "merchant": "Spotify", "amount": 10.99, "category": "subscriptions"},
+      {"date": "2026-02-24", "merchant": "Shell Gas Station", "amount": 48.50, "category": "transportation"},
+      {"date": "2026-02-22", "merchant": "Target", "amount": 89.32, "category": "shopping"},
+      {"date": "2026-02-20", "merchant": "Chipotle", "amount": 12.45, "category": "dining"},
+      {"date": "2026-02-18", "merchant": "Whole Foods Market", "amount": 71.00, "category": "groceries"},
+      {"date": "2026-02-15", "merchant": "Planet Fitness", "amount": 24.99, "category": "health"},
+      {"date": "2026-02-14", "merchant": "Uber Eats", "amount": 38.90, "category": "dining"},
+      {"date": "2026-02-10", "merchant": "Verizon Wireless", "amount": 85.00, "category": "utilities"}
+    ],
+    "electronics_purchases_last_12_months": [
+      {"date": "2025-11-29", "merchant": "Best Buy", "amount": 149.99, "item_note": "Black Friday"},
+      {"date": "2025-08-12", "merchant": "Apple Store", "amount": 29.99}
+    ],
+    "avg_transaction_amount": 52.30,
+    "max_transaction_last_90d": 284.99,
+    "transactions_above_200_last_12m": 3
+  },
+  "regulatory_context": {
+    "regulation": "Regulation E (12 CFR 1005)",
+    "notification_within_2_business_days": true,
+    "days_since_statement_showing_error": 1,
+    "within_60_day_reporting_window": true,
+    "provisional_credit_deadline": "2026-03-17",
+    "investigation_deadline": "2026-05-05",
+    "member_liability_cap_if_timely": 50.00
+  }
+}

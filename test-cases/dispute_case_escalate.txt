@@ -1,0 +1,117 @@
+{
+  "dispute_id": "DSP-2026-03912",
+  "filed_date": "2026-03-08",
+  "member": {
+    "member_id": "MBR-441067",
+    "name": "Casey Whitmore",
+    "account_opened": "2025-11-02",
+    "account_age_months": 4,
+    "tier": "Standard",
+    "overdraft_limit": 0,
+    "direct_deposit": false,
+    "avg_monthly_dd_amount": 0,
+    "total_prior_disputes": 3,
+    "prior_dispute_outcomes": ["resolved_in_favor", "denied", "resolved_in_favor"],
+    "prior_dispute_details": [
+      {"date": "2025-12-18", "amount": 79.99, "merchant": "GlowUp Skincare", "reason": "product_not_received", "outcome": "resolved_in_favor"},
+      {"date": "2026-01-09", "amount": 149.00, "merchant": "FitLife Supplements", "reason": "unauthorized_transaction", "outcome": "denied", "denial_reason": "merchant_provided_delivery_proof"},
+      {"date": "2026-02-14", "amount": 64.50, "merchant": "StyleBox Online", "reason": "product_not_as_described", "outcome": "resolved_in_favor"}
+    ],
+    "account_standing": "review",
+    "monthly_avg_spend": 1800,
+    "primary_spend_categories": ["shopping", "dining", "subscriptions", "beauty"]
+  },
+  "disputed_transaction": {
+    "transaction_id": "TXN-20260305-6614",
+    "date": "2026-03-05",
+    "post_date": "2026-03-06",
+    "amount": 199.99,
+    "merchant_name": "EliteWear Fashion",
+    "merchant_id": "MRC-77293",
+    "merchant_category_code": "5651",
+    "merchant_category": "Family Clothing Stores",
+    "payment_method": "debit_card",
+    "card_present": false,
+    "billing_descriptor": "ELITEWEAR.COM 888-555-0342"
+  },
+  "dispute_details": {
+    "reason_code": "unauthorized_transaction",
+    "member_statement": "I did not authorize this purchase. I think someone may have gotten my card info. I want a full refund immediately.",
+    "card_reported_lost_stolen": false,
+    "new_card_issued": false,
+    "new_card_issued_date": null
+  },
+  "merchant_data": {
+    "merchant_name": "EliteWear Fashion",
+    "merchant_id": "MRC-77293",
+    "registered_country": "US",
+    "registered_state": "CA",
+    "business_type": "e-commerce",
+    "years_in_operation": 5,
+    "network_stats": {
+      "total_transactions_last_90d": 12450,
+      "total_disputes_last_90d": 87,
+      "dispute_rate_pct": 0.70,
+      "avg_dispute_amount": 112.30,
+      "chargeback_win_rate_pct": 68,
+      "common_dispute_reasons": ["product_not_as_described", "product_not_received"],
+      "risk_flag": "LOW"
+    },
+    "industry_benchmark": {
+      "avg_dispute_rate_pct": 0.65,
+      "merchant_percentile": 52
+    }
+  },
+  "member_transaction_history": {
+    "last_30_days": [
+      {"date": "2026-03-07", "merchant": "Sephora", "amount": 87.50, "category": "beauty"},
+      {"date": "2026-03-06", "merchant": "DoorDash", "amount": 34.20, "category": "dining"},
+      {"date": "2026-03-05", "merchant": "EliteWear Fashion", "amount": 199.99, "category": "clothing", "disputed": true},
+      {"date": "2026-03-04", "merchant": "Zara", "amount": 156.00, "category": "clothing"},
+      {"date": "2026-03-03", "merchant": "Starbucks", "amount": 6.75, "category": "dining"},
+      {"date": "2026-03-01", "merchant": "SHEIN", "amount": 42.99, "category": "clothing"},
+      {"date": "2026-02-28", "merchant": "Uber Eats", "amount": 29.80, "category": "dining"},
+      {"date": "2026-02-27", "merchant": "Fashion Nova", "amount": 89.00, "category": "clothing"},
+      {"date": "2026-02-25", "merchant": "Netflix", "amount": 15.99, "category": "subscriptions"},
+      {"date": "2026-02-24", "merchant": "TJ Maxx", "amount": 67.32, "category": "clothing"},
+      {"date": "2026-02-22", "merchant": "Ulta Beauty", "amount": 54.00, "category": "beauty"},
+      {"date": "2026-02-20", "merchant": "Grubhub", "amount": 27.45, "category": "dining"},
+      {"date": "2026-02-18", "merchant": "H&M", "amount": 73.00, "category": "clothing"},
+      {"date": "2026-02-15", "merchant": "Spotify", "amount": 10.99, "category": "subscriptions"},
+      {"date": "2026-02-12", "merchant": "ASOS", "amount": 112.50, "category": "clothing"},
+      {"date": "2026-02-10", "merchant": "Cheesecake Factory", "amount": 48.90, "category": "dining"}
+    ],
+    "clothing_purchases_last_12_months": [
+      {"date": "2026-03-04", "merchant": "Zara", "amount": 156.00},
+      {"date": "2026-03-01", "merchant": "SHEIN", "amount": 42.99},
+      {"date": "2026-02-27", "merchant": "Fashion Nova", "amount": 89.00},
+      {"date": "2026-02-24", "merchant": "TJ Maxx", "amount": 67.32},
+      {"date": "2026-02-18", "merchant": "H&M", "amount": 73.00},
+      {"date": "2026-02-12", "merchant": "ASOS", "amount": 112.50},
+      {"date": "2026-01-28", "merchant": "Nordstrom Rack", "amount": 94.00},
+      {"date": "2026-01-15", "merchant": "Urban Outfitters", "amount": 68.00},
+      {"date": "2025-12-26", "merchant": "Zara", "amount": 210.00},
+      {"date": "2025-12-20", "merchant": "Revolve", "amount": 178.00},
+      {"date": "2025-12-01", "merchant": "SHEIN", "amount": 55.00}
+    ],
+    "avg_transaction_amount": 68.40,
+    "max_transaction_last_90d": 210.00,
+    "transactions_above_100_last_12m": 14
+  },
+  "regulatory_context": {
+    "regulation": "Regulation E (12 CFR 1005)",
+    "notification_within_2_business_days": true,
+    "days_since_statement_showing_error": 2,
+    "within_60_day_reporting_window": true,
+    "provisional_credit_deadline": "2026-03-18",
+    "investigation_deadline": "2026-05-06",
+    "member_liability_cap_if_timely": 50.00
+  },
+  "additional_flags": {
+    "shipping_address_on_file_matches_merchant_delivery": "unknown",
+    "ip_geolocation_of_transaction": "New York, NY",
+    "member_location": "New York, NY",
+    "device_fingerprint_match": true,
+    "note": "Transaction originated from same device fingerprint associated with member's account"
+  }
+}
